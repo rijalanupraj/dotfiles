@@ -22,6 +22,9 @@ nvimtree.setup({
 					arrow_open = "", -- arrow when folder is open
 				},
 			},
+			show = {
+				git = true,
+			},
 		},
 	},
 	-- disable window_picker for
