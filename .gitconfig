@@ -1,7 +1,8 @@
 [user]
 	name = Anup Raj Rijal
 	email = 53175920+rijalanupraj@users.noreply.github.com
-	signingKey = 20A9766EBF3020E1
+    signingKey = 20A9766EBF3020E1
+    
 [init]
 	defaultBranch = main
 [commit]
