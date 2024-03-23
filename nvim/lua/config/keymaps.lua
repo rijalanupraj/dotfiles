@@ -15,6 +15,9 @@ keymap.set("n", "J", "5j")
 keymap.set("n", "K", "5k")
 keymap.set("n", "<leader>j", "J")
 
+-- The K keymap was mapped to another in lazyvim so i had to forced it
+vim.keymap.set({ "n", "v" }, "K", "5k", { noremap = true, desc = "Up faster" })
+
 -- Increment/decrement
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
